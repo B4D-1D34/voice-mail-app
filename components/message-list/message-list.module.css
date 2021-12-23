@@ -1,0 +1,17 @@
+.head {
+  display: flex;
+  border-bottom: 2px solid rgb(170, 0, 0);
+  padding: 10px;
+}
+
+.date {
+  width: 170px;
+}
+
+.number {
+  width: 300px;
+}
+
+.list > :nth-child(even) {
+  background-color: rgb(233, 233, 233);
+}

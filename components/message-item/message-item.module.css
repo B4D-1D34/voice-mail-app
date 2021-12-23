@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  padding: 10px;
+}
+
+.date {
+  width: 170px;
+}
+
+.number {
+  width: 300px;
+}

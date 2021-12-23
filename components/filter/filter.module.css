@@ -1,0 +1,26 @@
+.filter {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.filterInput {
+  padding: 19px;
+  margin-right: 15px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.resetBtn {
+  /* padding: 7px 25px; */
+  padding: 16px 45px;
+  border: 1px dashed lightblue;
+  border-radius: 5px;
+  color: rgb(130, 189, 207);
+}
+
+.resetBtn:hover {
+  cursor: pointer;
+  background: lightblue;
+  color: white;
+}

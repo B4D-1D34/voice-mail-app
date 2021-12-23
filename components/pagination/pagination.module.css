@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  margin: auto;
+  width: max-content;
+  margin-top: 20px;
+}
+
+.pageNumber {
+  padding: 5px 9px;
+  margin: 0 3px;
+}
+
+.pageNumber:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
+}
+
+.arrow {
+  width: 20px;
+  color: rgb(160, 160, 255);
+}
+
+.arrow * {
+  pointer-events: none;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
